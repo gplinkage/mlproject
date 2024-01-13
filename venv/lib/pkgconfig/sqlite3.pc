@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/Users/namrataphuyal/Library/CloudStorage/GoogleDrive-jpkinkage@gmail.com/My Drive/Data Science/Projects/mlproject/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.33.0
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz 
+Cflags: -I${includedir}
